@@ -1,10 +1,15 @@
 # iv-hafta-odevi
 ##  Geri dönen bilgiye göre yeşil renkte onay mesajı gösterilmesi. (örneğin:view bag)
-<div><ul>
+
 Controller <br>
-ViewBag.SuccessMessage ="Başarılı";<br>
-View <br>
-@ViewBag.SuccessMessage  </ul>
+    ```
+ViewBag.SuccessMessage ="Başarılı";
+    ```
+    <br>
+View 
+  ```
+ <h3> class="bg-success">@ViewBag.SuccessMessage</h3>   
+ ```
 </div>
 
 ##  AddMVC - AddMVCCore - AddDateAnnotations nedir? Nerelerde eklenmelidir?
